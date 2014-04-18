@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: pixster-dev
+  pool: 5
+  host: localhost
+  username: action
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: pixster-test
+  pool: 5
+  host: localhost
+  username: action
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: pixster-prod
+  pool: 5
+  host: localhost
+  username: action
+  password:
