@@ -12,6 +12,7 @@ body {
   background: url(bg.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
+
   -o-background-size: cover;
   background-size: cover;
 }
@@ -27,14 +28,15 @@ font-weight:100;
 h2{
   font-family: Helvetica Neue;
   font-weight: 100;
-  font-size: 40px;
+  font-size: 50px;
   color:white;
+  line-height:50px;
 }
 
 h3{
   font-family: Helvetica Neue;
   font-weight: 100;
-  font-size: 40px;
+  font-size: 50px;
   color: white;
 }
 
@@ -44,5 +46,13 @@ label{
   font-size: 20px;
   color: white;
 }
+
+h4{
+  font-family: Helvetica Neue;
+  font-weight: 100;
+  font-size: 50px;
+  color:white;
+}
+  
 
   

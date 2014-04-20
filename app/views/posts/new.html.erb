@@ -1,0 +1,17 @@
+<div class="private-square span6 offset4 text-center">
+  <br>
+  <h1>Upload your Image</h1>
+  <br/>
+
+  <%= simple_form_for @post do |f| %>
+  <%= f.input :title, label: 'Title of the Place', placeholder: 'example: Anaheim, California.' %>
+  
+  <%= f.input :description, label: 'Write your story here', placeholder: 'example: Over spring break I went on a trip to California and absolutely loved everything! While in California I went to Disneyland theme park. My favorite ride was the Matterhorn and I would definitely recommend riding this thriller. Although there are considerably long lines, the wait was well worth it!' %>
+  <br/>
+  
+ <%= f.input :image %>
+   <br/>
+  <%= f.button :submit, :class => 'btn btn-warning' %>
+  <% end %>
+  
+</div>     

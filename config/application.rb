@@ -21,3 +21,6 @@ module Pixster
     # config.i18n.default_locale = :de
   end
 end
+
+
+require Rails.root.join("app", "uploaders", "image_uploader.rb")
